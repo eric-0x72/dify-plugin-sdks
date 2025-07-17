@@ -18,7 +18,7 @@ dependencies = [
     "tiktoken~=0.8.0",
     "yarl>=1.9.4,<2.0",
 ]
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 readme = "README.md"
 license = { text = "Apache2.0" }
 keywords = ["dify", "plugin", "sdk"]
