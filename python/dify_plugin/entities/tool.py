@@ -3,7 +3,7 @@ import contextlib
 import uuid
 from collections.abc import Mapping
 from enum import Enum
-from compact import StrEnum
+from .compact import StrEnum
 from typing import Any, Optional, Union
 
 from pydantic import (
