@@ -2,7 +2,8 @@ import base64
 import contextlib
 import uuid
 from collections.abc import Mapping
-from enum import Enum, StrEnum
+from enum import Enum
+from compact import StrEnum
 from typing import Any, Optional, Union
 
 from pydantic import (

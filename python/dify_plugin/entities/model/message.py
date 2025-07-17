@@ -1,8 +1,9 @@
 from collections.abc import Sequence
-from enum import Enum, StrEnum
+from enum import Enum
 from typing import Annotated, Literal, Optional, Union
 
 from pydantic import BaseModel, BeforeValidator, Field, field_validator
+from ..compact import StrEnum
 
 
 class PromptMessageRole(Enum):
